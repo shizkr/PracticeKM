@@ -1,8 +1,10 @@
 # Kernel Module Study
 
 # Load kernel driver module
-insmod ./program
+sudo insmod ./program
 
 # Remove module
-rmmod program
+sudo rmmod program
 
+# Check loaded module
+cat /proc/modules
