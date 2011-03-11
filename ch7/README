@@ -1,0 +1,6 @@
+# Load kernel module
+sudo insmod ./chardev.ko
+# Create device driver file 
+sudo mknod char_dev c 100 0
+# Run User program
+./ioctl
